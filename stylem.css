@@ -1,0 +1,749 @@
+@media screen and (max-width:599px) {
+
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    width: 100%; 
+    font-family: 'Poppins', sans-serif;
+}
+
+ .logo{
+    height: 76px;
+    width: 90px;
+    padding-top: 1.1em;
+    color: white;  
+    font-family: 'Lexend', sans-serif;
+    letter-spacing:2px;
+    font-weight:600;
+    font-size:1.6rem;
+    margin-left: 5px ;
+}
+
+.logo2{
+    margin-left: -35px;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3.4px;
+    margin-top: -1px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 181px;
+    margin-left: -32px;
+    padding-left: 67px;
+  }
+  
+  .dropdown-menu li {
+    display: block;
+  }
+  
+  .dropdown-menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: rgb(35,46,53);
+  }
+  
+  button {
+    padding: 10px;
+    background-color: rgb(35,46,53);
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(35,46,53);
+  }
+
+    .menu {
+        background-color: rgb(35,46,53);
+        margin-top:-0.5em;
+        padding: .2em 0;
+        margin-left: -0.2em;
+       
+    }
+        .menu li {
+          
+            padding: 5px;
+            list-style: none;
+            text-align: center;
+            margin: 0 0 0 -5em;
+        }
+
+
+  .menu li a{
+    text-decoration: none  ;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: .6px;
+    font-weight: 500;
+    border-radius: 2px;
+    padding:3px;
+    width:100%;
+    display:block;
+    margin:0 auto;
+    text-align:center
+}
+
+
+
+    .menu li a:hover {
+        background-color: white;
+        color: green;
+    }
+
+    /*menu item display none*/
+    #menu {
+        display: none;
+        border-top: 3px solid white;
+        border-bottom: 1px solid white;
+    }
+
+.navbar{
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    background-color: green;
+    padding: 3px;
+    clear:both;
+    margin-top:3.5em!important;
+    height:4.6em!important
+    
+}
+
+
+
+   .backpic{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('ofc.jpg');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+
+ .txt{
+    text-align: left;
+    position: absolute;
+    top: 25%; 
+    left: 4%;
+    color: white;
+    }
+
+    .develop {
+        font-size: 2.5em;
+        color: white;
+        margin-bottom: -8px;
+    }
+    .web{
+        margin-top: 70px;
+        font-size: 2.3em;
+        margin-bottom: -4px;
+    }
+
+    #cours{
+        margin-top: -8px;
+    }
+
+   #btn{
+    padding: 12px;
+    background-color: rgb(214,17,11);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    animation: colorchange 3s;  
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+    animation-play-state: running;
+  }
+
+  #btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #btn:hover span {
+    padding-right: 25px;
+  }
+  
+  #btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+
+
+/*CSS OF ABOUT SECTION*/
+
+    .aboutmain {
+        background-color: white !important
+    }
+
+    .aboutmain {
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+    }
+
+    .abheytitle {
+        font-size: 2.5em;
+        font-family: 'Jost', sans-serif;
+        width:97%!important;
+
+    }
+
+    .aboutfirst , .aboutscnd{
+        width: 98% !important;
+        float: left;
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+        .aboutfirst img{
+            width:100%!important;
+            margin:0 auto;
+            text-align:center
+        }
+
+
+        .aboutthrd, .aboutfourth {
+            width: 100% !important;
+            padding: 5px !important;
+            text-align: justify;
+            font-size: 16px;
+            font-family: 'Lexend', sans-serif;
+            line-height: 28px;
+        }
+
+
+
+    #about {
+        border: 1px solid gray;
+        margin: 50px;
+        text-align: center;
+    }
+
+  .about{
+    margin-top: -30px;
+  }
+
+
+
+  /*END ABOUT SECTION CSS*/
+
+
+
+    /* CSS OS COURSES SECTION*/
+
+    #ourservices {
+        background-color: rgb(35,46,53);
+        padding: 20px !important;
+        clear:both
+    }
+
+  .course{
+    text-align: center;  
+    color: white;
+  }
+
+    .course1 {
+        width: 100%;
+        background-color: rgb(6, 40, 63); !important
+    }
+
+    .first {
+        border-radius: 5px;
+        box-shadow: 1px 2px 10px #323438, 0px 0px 0px #ffffff;
+        padding: 15px;
+        background: border-box;
+        background-color: rgb(250,250,250);
+        color: rgb(6, 40, 63);
+        border:1px solid white;
+        width: 79%;
+        margin: 0 auto;
+    }
+
+
+     .mt{
+        margin-top:2em  !important
+    }
+    .hideonmobile {
+        display: none
+    }
+
+    /*title of our section 3 boxes div*/
+    .course2 {
+        color: rgb(35,46,53);        
+        text-align: left;
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .ourservicetilte {
+        /* margin-left: -0.1em; */
+        padding: 6px !important;
+        text-align: center !important;
+        border-top: 1px solid gray;
+        margin: 0 auto !important;
+        padding: 10px;
+        border-bottom: 1px solid gray;
+        width: 80% !important;
+        font-size: 2em !important;
+        background-color: rgb(35,46,53) !important;
+        margin-top: 10px;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 16px;
+        font-family: 'Lexend', sans-serif;
+        line-height: 28px;
+        margin:10px!important
+    }
+    .learn {
+        padding: 10px;
+        width: 40%;
+        border: 2px solid white;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bolder;
+        background-color: rgb(214,17,11);
+        color: white;
+        letter-spacing: -0.2px;
+    }
+
+    .learn span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .learn span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .learn:hover span {
+        padding-right: 25px;
+      }
+      
+      .learn:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+
+
+    /*CSS OF REGISTER SECTION*/
+
+  .register{   
+    width: 80%;
+    margin-left: 35px;
+    text-align: center;
+        
+  }
+
+  .divreg{
+    width: 83%;
+    margin: 0 auto;
+}
+
+    .registertitle {
+        font-size: 1em !important;
+        width: 99% !important;
+        letter-spacing: 1px;
+        word-spacing: 1px
+    }
+    .regitaerboxshadow {
+        width:98% !important;   
+       margin:2px!important
+    }
+
+    .hrl{
+        margin:0 ;
+        width:99%!important
+    }
+
+    .regdiv {
+        padding: 0 !important
+    }
+    
+
+    .inputmt {
+        margin-top:1em
+    }
+    .abheyinputt, .abheytextareaa {
+        width: 99%;
+        height: 40px;
+        padding: 2px 10px;        
+        color: #323438;      
+        font-size: 17px;        
+        background: #dde1e7;
+        border-radius: 5px;
+        border: none;
+        outline: 1px solid lightgray;
+        margin-top:.4em
+    }
+    /*text message*/
+    .abheytextareaa {
+        width: 99%;
+        height: 7em;
+        padding: 8px 10px !important
+    }
+    /*text name email etc*/
+    .abheylbl {
+        height: 40px;
+        font-size: 17px;
+        color: #073C74;
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+    }
+
+
+
+    /*submit btn*/
+    #abheysubmit {
+        text-align: center;
+        background-color: rgb(214,17,11);
+        border: 2px solid white;
+        border-radius: 5px;
+        font-weight: bolder;
+        padding: 10px;
+        color: white;
+        width: 99%;
+        letter-spacing: .6px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 1em !important;
+        /*margin-left:-2em*/
+    }
+
+    .regitaerboxshadow{
+        box-shadow: 0 2px 7px 2px rgb(0 0 0 / 72%) !important; 
+        width: 99%; 
+        height: 800px; 
+        border: 1px solid white; 
+        border-radius: 5px; 
+        padding: 20px 10px 0 10px;
+        margin-top: -50px;
+    }
+
+    #register{
+        margin-top: -62px;
+    }
+
+    .map{
+        width: 99%;
+        height: 500px;
+        /* margin-left: 2px; */
+        margin-top: 40px;
+    }
+
+
+   
+    /*ENDS  OF REGISTER SECTION*/
+    /*CSS OF Footer SECTION*/
+    .footerdiv1 {
+        padding: 1em !important;
+        width: 100% !important;
+        border-radius: 5px;
+        /*height:em!important*/
+    }
+    .contacttitle {
+        text-shadow: 1px 0px yellow !important;
+        letter-spacing: 1.5px !important;
+        font-size: 1.8rem;
+        font-family: 'Lexend', sans-serif;
+    }
+
+    .cnttitle {
+        width: 79% !important;
+        text-align: center;
+        margin-left: 1.5em;
+        background-color: rgb(35,46,53);
+        padding: 10px !important;
+        font-size: 1.5em !important;
+        margin-bottom: -20px;
+    }
+
+
+    .f-div{
+        margin-top:-2em!important;
+    }
+
+    .fmtmobile {
+        margin-top:2em!important
+    }
+
+
+    /*h3 of Phone Email Address & working hours*/
+    .foot-phone {
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.4rem;       
+        text-shadow: 1px 0px yellow;
+        height:10px!important;
+        padding: 0 0 0 2.4em!important;
+        color: rgb(214,17,11);
+    }
+
+    .f-icon {
+        margin-top: -1em;
+        color: rgb(214,17,11);       
+        margin-left: -.5em;
+        font-size:2.5em!important;
+    }
+
+    .f-icon1 {
+        margin-left: 0em;
+        margin-top:-.5em
+    }
+    .f-icon2 {
+        margin-left: 0em;
+        font-size:2em!important
+    }
+    .f-icon3 {
+        margin-left: 0em;
+        margin-top: -.5em
+    }
+    .f-icon4 {
+        margin-left: 0em;
+        font-size: 2em !important
+    }
+
+
+    /*text eg(+91-0000000000 , abc@gmail.com)*/
+    .f-span, .f-span2, .f-span3 {
+        color: rgb(214,17,11) !important;
+        font-weight: 500;
+        font-family: 'Lexend', sans-serif;
+        font-size: .8rem;       
+        margin-left: 1em;
+    }
+
+    .f-span1 {
+        margin-left: 1.8em;
+        
+        
+    }
+
+    .f-span2 {
+        margin-left: .8em
+    }
+
+    .f-span3 {
+        margin-left: 1.7em
+    }
+
+    .f-span4 {
+        margin-left: 1.1em
+    }
+
+
+    .social {
+        margin-left: -85px !important;
+    }
+
+
+
+
+
+    .logotextdeepak {
+        width: 4.8em;
+        font-size: 2.5em;
+        height: 1.5em;
+        padding: 10px !important;
+        box-shadow: 2px 3px 2px gray;
+        outline: 1px solid lightgray;
+    }
+
+    .fmain{
+        padding:10px 20px!important;
+    }
+
+    footer {
+        background-color: green;
+    }
+
+
+
+    .foothr, .foothrr2 {
+        border: none;
+        border: 1px solid white;
+        width:50%;
+        margin-left:0
+    }
+
+    .boxes{
+        width: 100%; 
+        float: left; 
+        margin: 0 auto; 
+        background-color: rgb(35,46,53);
+        padding: 73px 46px 49px 14px;
+    }
+    .continfo-detail{
+        padding:0!important;
+        margin-left:0;
+        margin-top:-1.5em;
+    }
+
+    .continfo-detail li     {
+        line-height:30px;
+    }
+
+
+
+    #online{
+        font-size:12px!important;
+        line-height:18px;
+    }
+
+
+    /*copyright Text*/
+    #copy{
+        padding:5px;
+    }
+
+    .fmain {
+        color: white;
+    }
+
+
+
+.para{
+    font-size: 15px;
+}
+.fmid{
+     margin-top: 1em; 
+    padding-top: 5px;
+   
+}
+
+.fmid2{
+    
+    text-align: left;
+    margin-left: 8px;
+    margin-right: 5px;    
+    height: 100px;
+}
+.fmid3{
+    margin-top: 20px;
+    margin-right: 5px;
+    padding-left: 5px;
+    color: white;
+}
+
+.paid{    
+    color: white;
+    width: 100px !important;    
+}
+
+
+
+.ads{
+    margin-top: 20px;
+}
+
+.fmid4{
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+}  
+
+.fl{
+    color: white;
+    text-align: justify;
+    padding-left: 5px;
+}
+
+#copy{
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+}
+
+
+/*.onmobile{
+    position: fixed;
+}*/
+
+
+    .threelines{
+        position: fixed;
+        right: 5px;
+        margin-top: -3.6em !important;
+        border: 1px solid white;
+        /*display:block*/
+    }
+
+    .cross {
+        position: fixed;
+        right: 5px;
+        margin-top: -15.5em !important;
+        border: 1px solid white;
+        /*display:block*/
+  
+    }
+
+    .threelines{
+        z-index:9
+    }
+
+
+
+
+
+    /*toggle*/
+
+    .toggle label {
+        right: 5em !important
+    }
+
+
+
+
+} 
